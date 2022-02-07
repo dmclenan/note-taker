@@ -1,5 +1,5 @@
 const fs = require("fs");
-const uuidv1 = require("uuid");
+const uuidv1 = require("uuid/v1");
 const util = require("util");
 
 const readFile = util.promisify(fs.readFile);
